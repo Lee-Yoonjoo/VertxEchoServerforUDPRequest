@@ -1,6 +1,6 @@
 # VertxServerExample
 
-Version of Java : JavaSE-1.8 (jdk1.8.0_144)
+Version of Java on Windows: JavaSE-1.8 (jdk1.8.0_144)
 
 1. Create a Maven Project, named vertx-benchmark.
 2. Add Dependencies, vertx-core:3.3.2 and jsr305:3.0.0 on pom.xml.
