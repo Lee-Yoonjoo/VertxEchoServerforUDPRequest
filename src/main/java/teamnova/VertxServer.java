@@ -20,13 +20,12 @@ public class VertxServer extends AbstractVerticle {
 	public void start() {
 		System.out.println("Starting UDP Listener");
 		// TODO should be stored in a configuration repository somewhere
-		String addr = "0.0.0.0";
 		int port = 9876;
 
 		 DatagramSocket socket = vertx.createDatagramSocket();
 
 
-        socket.listen(9876, "localhost", this::socketHandler);
+        socket.listen(9876, "192.168.0.45", this::socketHandler);
 
 	}
 	
