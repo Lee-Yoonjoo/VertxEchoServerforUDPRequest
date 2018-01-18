@@ -1,5 +1,5 @@
 package teamnova;
-/* Vertx로 작성한 Benchmark용 TEST UDP Echo 서버 */
+/* Vertx Benchmark TEST UDP Echo Server*/
 import io.vertx.core.Vertx;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.datagram.DatagramSocket;
