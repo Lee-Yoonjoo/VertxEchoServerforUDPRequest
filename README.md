@@ -1,4 +1,4 @@
-# VertxServerExample
+# Vertx Echo Server Example for UDP Request
 
 Version of Java on Windows: JavaSE-1.8 (jdk1.8.0_144)
 
