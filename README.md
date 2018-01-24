@@ -3,7 +3,7 @@
 Version of Java on Windows: JavaSE-1.8 (jdk1.8.0_144)
 
 1. Create a Maven Project, named vertx-benchmark.
-2. Add Dependencies, vertx-core:3.3.2 and jsr305:3.0.0 on pom.xml.
+2. Add Dependencies, vertx-core:3.5.0 and jsr305:3.0.0 on pom.xml. (Stable version of Vertx is recommended)
 3. Create VertxServer.java which extends AbstrackVerticle and wrote the codes.
 4. Run the server as Java Application on Eclipse in my local windows 8.1 (64bits)machine. It worked well.
 5. A runnable jar, VertxServer.jar, file is exported from Eclipse, I copy that to Ubuntu server through USB or Email.
